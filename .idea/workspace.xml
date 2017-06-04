@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a405dd0-215a-4030-b1ad-1ee92d874110" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/installers/Quant.bat" afterPath="$PROJECT_DIR$/vendor/installers/Quant.bat" />
+    </list>
+    <ignored path="kit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost [2]" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PAGES">
+      <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/buy.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/index.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/service.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/partners.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/production.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/layout.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/INCLUDES" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/INCLUDES/_head.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/INCLUDES/_scripts.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
+    <favorites_list name="MODULES">
+      <favorite_root url="file://$PROJECT_DIR$/dev/MODULES" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/LOGO" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/info.mmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/data.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/script.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_mixin.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_mixin.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_include.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_starter.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/info.mmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/data.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/script.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/_mixin.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/_mixin.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/_include.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MENUS/D_Multi-Toggle Navigation_Adaptive/_include.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/MODALS" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/_modules.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/data.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/script.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/_mixin.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/_mixin.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/_include.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--vri_features/_starter.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider" module="kit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/data.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/script.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/_mixin.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/_mixin.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/_include.pug" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--collection_slider/_starter.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
+    <favorites_list name="SETTINGS">
+      <favorite_root url="file://$PROJECT_DIR$/dev/scss/MASTER_OPTIONS/_options.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/dev/templates/data.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="782">
+      <file leaf-file-name="_options.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/scss/MASTER_OPTIONS/_options.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2527">
+              <caret line="133" column="71" lean-forward="false" selection-start-line="133" selection-start-column="71" selection-end-line="133" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-sidebar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/layouts/content-sidebar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2869">
+              <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4902">
+              <caret line="258" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2203" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/splits/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/splits/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispanser.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/splits/dispanser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/splits/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2SIDERBARINNER-docs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/splits/2SIDERBARINNER-docs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="18" column="73" lean-forward="false" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+              <folding>
+                <element signature="e#6#267#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integrator/WordPress/DRAFT/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integrator/WordPress/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/integrator/WordPress/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4636">
+              <caret line="244" column="48" lean-forward="false" selection-start-line="244" selection-start-column="48" selection-end-line="244" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_hero_video-script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/js/_hero_video-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quant.bat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/installers/Quant.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="49" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AWS CloudFormation Template" />
+        <option value="CSS File" />
+        <option value="Empty Mind Map" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Pug File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new</find>
+      <find>PAGE</find>
+      <find>PAGES</find>
+      <find>watcher</find>
+      <find>-pages</find>
+      <find>PAGEsy</find>
+      <find>concat-elements-scss</find>
+      <find>sequ</find>
+      <find>SCRIPTS-FINAL</find>
+      <find>concat-mo</find>
+      <find>conca</find>
+      <find>concat-modules-pug</find>
+      <find>asss</find>
+      <find>&lt;%= name %&gt;</find>
+      <find>hidde</find>
+      <find>headerAddress</find>
+      <find>hid</find>
+      <find>her</find>
+      <find>ham</find>
+      <find>cart</find>
+      <find>allPriceListButton</find>
+      <find>Ya</find>
+      <find>comentWrapNameDateIcon</find>
+      <find>.sidebar__section</find>
+      <find>.sidebarCategories</find>
+      <find>svg</find>
+      <find>gulp-svgstore</find>
+      <find>.sliderPage</find>
+      <find>hamburger</find>
+      <find>bro</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>mobile</replace>
+      <replace>]]</replace>
+      <replace>jQuery</replace>
+      <replace>fonts/</replace>
+      <replace>vfs</replace>
+      <replace>elementName</replace>
+      <replace>+</replace>
+      <replace>&lt;%= name %&gt;</replace>
+      <replace>&lt;%elementName%&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Gomersonger &lt;gomersong@gmail.com&gt;" />
+        <option value="Gomersonger &lt;slonozavrsword@mail.ru&gt;" />
+        <option value="Gomersonger" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dev/scss/HELPERS/_helpers.scss" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_include.pug" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/libs.json" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_mixin.pug" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/_footer.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/ICON-TITLE-TEXTS/--infoElement/style.scss" />
+        <option value="$PROJECT_DIR$/dev/templates/data.json" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/docs.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/LINKS/socialLink/mixin.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/ICONS/--MAIN/style.scss" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/LINKS/--socialLink/mixin.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/LINKS/--socialLink/style.scss" />
+        <option value="$PROJECT_DIR$/dev/SOURCE_FABRIC/ICONS_COMBINER/icons/twitter.svg" />
+        <option value="$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/--removeCss/removeCss.js" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/INCLUDES/_head.pug" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/layout.pug" />
+        <option value="$PROJECT_DIR$/dev/scss/GRID/_mixins.scss" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/index.php" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-config.php" />
+        <option value="$PROJECT_DIR$/dev/scss/MEDIA/_media.scss" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--cartBlock/_mixin.scss" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--cartBlock/_mixin.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/LINK-BUTTONS/--learnMoreButton/style.scss" />
+        <option value="$PROJECT_DIR$/dev/MIXES/vertical_centered_image/_style.scss" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/2SIDEBARINNER/layout.pug" />
+        <option value="$PROJECT_DIR$/dev/scss/CONSTRUCTION/_construction.scss" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/2SIDERBARINNER-docs.pug" />
+        <option value="$PROJECT_DIR$/dist/scripts/quant-lib.js" />
+        <option value="$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/--quant-lib/quant-lib.js" />
+        <option value="$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_mixin.scss" />
+        <option value="$PROJECT_DIR$/dev/MIXES/Logo-img/_style.scss" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/_header.pug" />
+        <option value="$PROJECT_DIR$/dev/ELEMENTS/INPUTS/--TEXT/style.scss" />
+        <option value="$PROJECT_DIR$/dev/SOURCE_FABRIC/ICONS_COMBINER/icons/close.svg" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_mixin.scss" />
+        <option value="$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/index.pug" />
+        <option value="$PROJECT_DIR$/dev/scss/_project.scss" />
+        <option value="$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/--xRayView/xRayView.js" />
+        <option value="$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/owlSlider.js" />
+        <option value="$PROJECT_DIR$/dist/scripts/xRayView.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-settings.php" />
+        <option value="$PROJECT_DIR$/dev/scss/MASTER_OPTIONS/_options.scss" />
+        <option value="$PROJECT_DIR$/dist/main.css" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/style.css" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/footer.php" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/header.php" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/functions.php" />
+        <option value="$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/layouts/content-sidebar.css" />
+        <option value="$PROJECT_DIR$/vendor/installers/Quant.bat" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>phplint</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>SCRIPTS2</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>sync group0:0</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="sync group0:0" />
+            </dependencies>
+            <task-name>SCRIPTS ALL</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>views</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>validate</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>default</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bro</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>wpServ</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>PAGESYSTEM</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>SERVER</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>VIEW-FINAL</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>VIEW-1-ELEMENTS</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>VIEW-1-MIXES</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>VIEW-1-MODULES</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>VIEW-1-DATA</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>SERVER WATCHER</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>WATCH-MODULE-FOLDERS</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>STYLES-FINAL</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>STYLES-1-ELEMENTS</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>STYLES-1-PAGES</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>STYLES-1-MIXES</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>STYLES-1-MODULES</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>SCRIPTS-FINAL</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>WATCHER:NEW</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>BUILDUP</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>readyWatcher</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>optimage</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>image_resize</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-modules-and-mixes</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-elements</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-elements-pug</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-elements-scss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-pages-scss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-mixes-pug</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-mixes-scss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-modules-scss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concat-modules-pug</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>be</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bm</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bs</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bmx</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>styles</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>throw-main-css</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>browser-reload</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>validw3c</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>makeWP_DRAFT</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>splitter</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>blueprint-wright-json</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>merge-json</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>compile-blueprint-view-start</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>compile-blueprint-view</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>compile-blueprint-sass</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>start-blueprint-server</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bp</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>buildblueprint</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>mergeJson</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>cleanMainCss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>split-css</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>tests</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>dist-module</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>testizmodul</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>crop</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>scale</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>pb</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>convertfonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fontvars</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>regfont</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>wrapfontVars</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>concatVars</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>buildfonts</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>buildfonts2</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>sass-json</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bsold</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>svgstore</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>START QUANT</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>u-h2p</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>deploycss</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>iconfont</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>cache</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Dist Files" pattern="file[kit]:dist//*" />
+    <order>
+      <scope name="MODULES" />
+      <scope name="SCSS" />
+      <scope name="ELEMENTS" />
+      <scope name="MIXES" />
+      <scope name="project" />
+    </order>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="kit">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="NBKnowledgePane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="installers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kitV" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$PROJECT_DIR$/node_modules/grunt-cli" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.24493732" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="DefaultAwsCloudFormationTemplate" value="AWS CloudFormation Template" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\R2D2\AppData\Roaming\npm\node_modules\gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/backend/SERVER/wp/wp-content/themes/quantbase/header.php&#10;/Users/admin/Desktop/kit.betta/kit/backend/SERVER/wp/wp-content/themes/quantbase/woocommerce/archive-product.php&#10;/Users/admin/Desktop/kit.betta/kit/backend/SERVER/wp/wp-content/themes/quantbase/style.css&#10;/Users/admin/Desktop/kit.betta/kit/backend/SERVER/wp/wp-content/themes/quantbase/functions.php" />
+    <property name="SearchEverywhereHistoryKey" value=".sidebarCategories&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\backend\Hospital\wordpress\wp-content\themes\hospital\js" />
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\dev\ELEMENTS\CARTBLOCK\--cartBlock" />
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\dev\SOURCE_FABRIC\ICONS_COMBINER\icons" />
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\vendor\file_templates\ELEMENTS\Icon-title-text" />
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\dev\ELEMENTS\LINK-BUTTONS\--learnMoreButton" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB\HOSPITAL WP THEME\kit\vendor\file_templates\ELEMENTS\Icon-title-text\_templates" />
+      <recent name="D:\WEB\hospitalFrontEnd\kit\vendor\file_templates\ELEMENTS\LINK-BUTTON\_templates" />
+      <recent name="C:\Users\DSolo\Desktop\Project\kit\vendor\file_templates\MODULES" />
+      <recent name="C:\Users\DSolo\Desktop\Project\kit\vendor" />
+      <recent name="$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/_templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.START QUANT">
+    <configuration default="false" name="START QUANT" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>START QUANT</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="svgstore" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>svgstore</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SCRIPTS2" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>SCRIPTS2</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="styles" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>styles</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="makeWP_DRAFT" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>makeWP_DRAFT</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="sass" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="sass" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge-json" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="merge-json" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="optimage" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>optimage</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BUILDMODULE" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>BUILDMODULE</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="image_resize" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>image_resize</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="serve" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>serve</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="watchsass" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watchsass</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bm" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>bm</task>
+      </tasks>
+      <arguments>name</arguments>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="compile-blueprint-sass" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>compile-blueprint-sass</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="throw-main-css" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>throw-main-css</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="split-css" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>split-css</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="merge-json" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>merge-json</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="scssconcatmodules" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>scssconcatmodules</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SERVER" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>SERVER</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="sass" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>sass</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="default" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WATCHER" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>/usr/local/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>WATCHER</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PAGESYSTEM" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>PAGESYSTEM</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="mergeJson" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>mergeJson</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>views</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="splitter" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>splitter</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <list size="26">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.sass" />
+      <item index="1" class="java.lang.String" itemvalue="Grunt.js.merge-json" />
+      <item index="2" class="java.lang.String" itemvalue="Gulp.js.optimage" />
+      <item index="3" class="java.lang.String" itemvalue="Gulp.js.BUILDMODULE" />
+      <item index="4" class="java.lang.String" itemvalue="Gulp.js.image_resize" />
+      <item index="5" class="java.lang.String" itemvalue="Gulp.js.serve" />
+      <item index="6" class="java.lang.String" itemvalue="Gulp.js.watchsass" />
+      <item index="7" class="java.lang.String" itemvalue="Gulp.js.bm" />
+      <item index="8" class="java.lang.String" itemvalue="Gulp.js.compile-blueprint-sass" />
+      <item index="9" class="java.lang.String" itemvalue="Gulp.js.throw-main-css" />
+      <item index="10" class="java.lang.String" itemvalue="Gulp.js.split-css" />
+      <item index="11" class="java.lang.String" itemvalue="Gulp.js.merge-json" />
+      <item index="12" class="java.lang.String" itemvalue="Gulp.js.scssconcatmodules" />
+      <item index="13" class="java.lang.String" itemvalue="Gulp.js.SERVER" />
+      <item index="14" class="java.lang.String" itemvalue="Gulp.js.sass" />
+      <item index="15" class="java.lang.String" itemvalue="Gulp.js.default" />
+      <item index="16" class="java.lang.String" itemvalue="Gulp.js.WATCHER" />
+      <item index="17" class="java.lang.String" itemvalue="Gulp.js.PAGESYSTEM" />
+      <item index="18" class="java.lang.String" itemvalue="Gulp.js.mergeJson" />
+      <item index="19" class="java.lang.String" itemvalue="Gulp.js.views" />
+      <item index="20" class="java.lang.String" itemvalue="Gulp.js.splitter" />
+      <item index="21" class="java.lang.String" itemvalue="Gulp.js.START QUANT" />
+      <item index="22" class="java.lang.String" itemvalue="Gulp.js.svgstore" />
+      <item index="23" class="java.lang.String" itemvalue="Gulp.js.SCRIPTS2" />
+      <item index="24" class="java.lang.String" itemvalue="Gulp.js.styles" />
+      <item index="25" class="java.lang.String" itemvalue="Gulp.js.makeWP_DRAFT" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.START QUANT" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.makeWP_DRAFT" />
+        <item index="2" class="java.lang.String" itemvalue="Gulp.js.styles" />
+        <item index="3" class="java.lang.String" itemvalue="Gulp.js.svgstore" />
+        <item index="4" class="java.lang.String" itemvalue="Gulp.js.SCRIPTS2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a405dd0-215a-4030-b1ad-1ee92d874110" name="Default" comment="" />
+      <created>1476565000660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476565000660</updated>
+      <workItem from="1476565002676" duration="735000" />
+      <workItem from="1476567058671" duration="1715000" />
+      <workItem from="1476568795219" duration="346000" />
+      <workItem from="1476626826979" duration="20600000" />
+      <workItem from="1476811593934" duration="5525000" />
+      <workItem from="1476988750531" duration="431000" />
+      <workItem from="1477159313361" duration="14002000" />
+      <workItem from="1477505354881" duration="6791000" />
+      <workItem from="1477743471595" duration="21705000" />
+      <workItem from="1478110493961" duration="1715000" />
+      <workItem from="1478112234896" duration="6880000" />
+      <workItem from="1478195965528" duration="15858000" />
+      <workItem from="1478291969029" duration="124000" />
+      <workItem from="1478292103377" duration="2161000" />
+      <workItem from="1478369804218" duration="49813000" />
+      <workItem from="1478896392533" duration="48573000" />
+      <workItem from="1479630196004" duration="31874000" />
+      <workItem from="1479724343371" duration="9530000" />
+      <workItem from="1479800351266" duration="4766000" />
+      <workItem from="1479805817783" duration="10050000" />
+      <workItem from="1479841195072" duration="7477000" />
+      <workItem from="1479886927069" duration="10713000" />
+      <workItem from="1479915597401" duration="1485000" />
+      <workItem from="1479980317258" duration="2412000" />
+      <workItem from="1479983503188" duration="8777000" />
+      <workItem from="1480006654786" duration="3253000" />
+      <workItem from="1480017819970" duration="1662000" />
+      <workItem from="1480060867054" duration="21995000" />
+      <workItem from="1480102654364" duration="1079000" />
+      <workItem from="1480158914395" duration="50912000" />
+      <workItem from="1480355987845" duration="8851000" />
+      <workItem from="1480443105442" duration="15416000" />
+      <workItem from="1480495890601" duration="20196000" />
+      <workItem from="1480587108156" duration="8488000" />
+      <workItem from="1480668982110" duration="12705000" />
+      <workItem from="1480759609578" duration="8198000" />
+      <workItem from="1480777908038" duration="26347000" />
+      <workItem from="1480961973101" duration="1444000" />
+      <workItem from="1480963827985" duration="5277000" />
+      <workItem from="1481133940803" duration="7879000" />
+      <workItem from="1481221051763" duration="9602000" />
+      <workItem from="1481273275692" duration="6945000" />
+      <workItem from="1481364375218" duration="10611000" />
+      <workItem from="1481392435872" duration="3062000" />
+      <workItem from="1481451516623" duration="20240000" />
+      <workItem from="1481652888559" duration="4844000" />
+      <workItem from="1481657888850" duration="567000" />
+      <workItem from="1481658478280" duration="2272000" />
+      <workItem from="1481740932351" duration="2047000" />
+      <workItem from="1481743011985" duration="5718000" />
+      <workItem from="1481827033068" duration="858000" />
+      <workItem from="1481827914721" duration="40968000" />
+      <workItem from="1482167863182" duration="17158000" />
+      <workItem from="1482343931139" duration="1521000" />
+      <workItem from="1482345472346" duration="3681000" />
+      <workItem from="1482430966390" duration="3450000" />
+      <workItem from="1482577333570" duration="6440000" />
+      <workItem from="1482585994255" duration="12262000" />
+      <workItem from="1482771033909" duration="2778000" />
+      <workItem from="1483360324305" duration="6271000" />
+      <workItem from="1487351582542" duration="28478000" />
+      <workItem from="1487511152500" duration="12124000" />
+      <workItem from="1487704527793" duration="3230000" />
+      <workItem from="1487787872459" duration="6663000" />
+      <workItem from="1487841107187" duration="705000" />
+      <workItem from="1487843864632" duration="109000" />
+      <workItem from="1487871545119" duration="327000" />
+      <workItem from="1487871885437" duration="1077000" />
+      <workItem from="1487873085043" duration="4431000" />
+      <workItem from="1487931705405" duration="409000" />
+      <workItem from="1487932660885" duration="937000" />
+      <workItem from="1487933775560" duration="294000" />
+      <workItem from="1487934155594" duration="595000" />
+      <workItem from="1487934789541" duration="1096000" />
+      <workItem from="1487939625950" duration="129000" />
+      <workItem from="1487939790601" duration="312000" />
+      <workItem from="1487940137080" duration="1443000" />
+      <workItem from="1487944158458" duration="1463000" />
+      <workItem from="1488015051078" duration="14254000" />
+      <workItem from="1488037660750" duration="521000" />
+      <workItem from="1488049413895" duration="8874000" />
+      <workItem from="1488105541798" duration="10849000" />
+      <workItem from="1488126331778" duration="3597000" />
+      <workItem from="1488131656894" duration="1733000" />
+      <workItem from="1488180251559" duration="81000" />
+      <workItem from="1488224886551" duration="3371000" />
+      <workItem from="1488272289921" duration="19698000" />
+      <workItem from="1488302470252" duration="8966000" />
+      <workItem from="1488354745998" duration="23835000" />
+      <workItem from="1488387936342" duration="11512000" />
+      <workItem from="1488444542509" duration="20086000" />
+      <workItem from="1488536457575" duration="13427000" />
+      <workItem from="1488629465264" duration="9002000" />
+      <workItem from="1488703864209" duration="16490000" />
+      <workItem from="1488789979401" duration="21110000" />
+      <workItem from="1488879085273" duration="12815000" />
+      <workItem from="1488899337181" duration="90000" />
+      <workItem from="1489045886036" duration="9025000" />
+      <workItem from="1489131903584" duration="23670000" />
+      <workItem from="1489390805004" duration="20180000" />
+      <workItem from="1489420801821" duration="222000" />
+      <workItem from="1489489780754" duration="5644000" />
+      <workItem from="1489565491338" duration="19537000" />
+      <workItem from="1489654175440" duration="3961000" />
+      <workItem from="1489751181174" duration="9715000" />
+      <workItem from="1489911659991" duration="19393000" />
+      <workItem from="1489998919014" duration="16572000" />
+      <workItem from="1490089510360" duration="29140000" />
+      <workItem from="1490260324864" duration="11414000" />
+      <workItem from="1490347938433" duration="17728000" />
+      <workItem from="1490523696686" duration="1971000" />
+      <workItem from="1490533532421" duration="49000" />
+      <workItem from="1490533688577" duration="8253000" />
+      <workItem from="1490620896279" duration="9308000" />
+      <workItem from="1490800003692" duration="1693000" />
+      <workItem from="1491214913114" duration="8713000" />
+      <workItem from="1491302795334" duration="2531000" />
+      <workItem from="1491392706895" duration="5899000" />
+      <workItem from="1491469118060" duration="10256000" />
+      <workItem from="1491556221500" duration="10364000" />
+      <workItem from="1491812955818" duration="16041000" />
+      <workItem from="1491904005082" duration="4085000" />
+      <workItem from="1491984930741" duration="5572000" />
+      <workItem from="1492012437525" duration="885000" />
+      <workItem from="1492073729219" duration="13917000" />
+      <workItem from="1492157246318" duration="17640000" />
+      <workItem from="1492417546746" duration="19744000" />
+      <workItem from="1492504142757" duration="18870000" />
+      <workItem from="1492589249672" duration="23948000" />
+      <workItem from="1492678251419" duration="19744000" />
+      <workItem from="1492761852698" duration="13279000" />
+      <workItem from="1493020165655" duration="3157000" />
+      <workItem from="1493034371234" duration="623000" />
+      <workItem from="1493145482917" duration="4641000" />
+      <workItem from="1493229222036" duration="7035000" />
+      <workItem from="1493625881570" duration="17609000" />
+      <workItem from="1493657476336" duration="5099000" />
+      <workItem from="1493702200938" duration="91000" />
+      <workItem from="1493745796348" duration="6555000" />
+      <workItem from="1493885065139" duration="4558000" />
+      <workItem from="1493890336260" duration="17049000" />
+      <workItem from="1493922669774" duration="20227000" />
+      <workItem from="1494081437408" duration="305000" />
+      <workItem from="1494081760356" duration="877000" />
+      <workItem from="1494082688255" duration="585000" />
+      <workItem from="1494083289711" duration="10212000" />
+      <workItem from="1494179675564" duration="3952000" />
+      <workItem from="1494239501817" duration="10530000" />
+      <workItem from="1494255885682" duration="6313000" />
+      <workItem from="1494401093754" duration="98000" />
+      <workItem from="1494440097075" duration="6516000" />
+      <workItem from="1494527539075" duration="5247000" />
+      <workItem from="1494596084527" duration="1939000" />
+      <workItem from="1494615207260" duration="5818000" />
+      <workItem from="1494685403587" duration="1567000" />
+      <workItem from="1494758770818" duration="19694000" />
+      <workItem from="1494857771288" duration="3333000" />
+      <workItem from="1494871612257" duration="3193000" />
+      <workItem from="1495186654625" duration="10688000" />
+      <workItem from="1495284737328" duration="647000" />
+      <workItem from="1495362361868" duration="2176000" />
+      <workItem from="1495718044723" duration="1659000" />
+      <workItem from="1495740366112" duration="3134000" />
+      <workItem from="1495798276583" duration="2742000" />
+      <workItem from="1495882943948" duration="6140000" />
+      <workItem from="1495889284533" duration="2633000" />
+      <workItem from="1496082176540" duration="546000" />
+      <workItem from="1496083086943" duration="507000" />
+      <workItem from="1496084072178" duration="2422000" />
+      <workItem from="1496167600211" duration="6924000" />
+      <workItem from="1496324210613" duration="2527000" />
+      <workItem from="1496340569524" duration="19000" />
+      <workItem from="1496406785436" duration="14680000" />
+      <workItem from="1496437792951" duration="4093000" />
+      <workItem from="1496494772830" duration="272000" />
+      <workItem from="1496495264137" duration="4005000" />
+      <workItem from="1496513931304" duration="609000" />
+      <workItem from="1496582008850" duration="7364000" />
+      <workItem from="1496602441943" duration="176000" />
+      <workItem from="1496604737284" duration="1487000" />
+    </task>
+    <task id="LOCAL-00011" summary="127n resize crop task">
+      <created>1481141451047</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1481141451047</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12-11e new spacer func fix scss parts order to compile">
+      <created>1481474036085</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1481474036085</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12-13n Some Font work started + hero video module + some helpers styles added">
+      <created>1481660098310</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1481660098310</updated>
+    </task>
+    <task id="LOCAL-00014" summary="12-15n  Font shell with fontforge">
+      <created>1481835035584</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1481835035584</updated>
+    </task>
+    <task id="LOCAL-00015" summary="12-19  Font font-face generator">
+      <created>1482097128118</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1482097128118</updated>
+    </task>
+    <task id="LOCAL-00016" summary="12-20  Font 95% ready">
+      <created>1482266875272</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1482266875272</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Pre Alpha 0.0.01">
+      <created>1482669169222</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1482669169222</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Pre Alpha 0.0.01">
+      <created>1482671351971</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1482671351971</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Pre Alpha 0.0.04 improve watcher sass task">
+      <created>1487424644002</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1487424644002</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Pre Alpha 0.0.53">
+      <created>1487708468946</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1487708468946</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pre Alpha 0.0.531 add installer">
+      <created>1487843959021</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1487843959021</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Pre Alpha 0.0.591">
+      <created>1488180312558</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1488180312558</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ove menu and sidebar">
+      <created>1488468425137</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1488468425137</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Pre Alpha 0.0.69 SVG ICONS SYSTEM ADDED">
+      <created>1488556967440</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1488556967440</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Pre Alpha 0.0.695">
+      <created>1488639196142</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1488639196142</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Pre Alpha 0.0.695">
+      <created>1488722638789</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1488722638789</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Pre Alpha 0.0.698">
+      <created>1488815165509</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1488815165509</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Pre Alpha 0.0.698">
+      <created>1488899392537</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1488899392537</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Pre Alpha 0.0.698">
+      <created>1489073568325</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1489073568325</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Pre Alpha 0.0.698">
+      <created>1489420909432</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1489420909432</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Pre Alpha 0.0.698">
+      <created>1489506114051</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1489506114051</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Pre Alpha 0.0.698">
+      <created>1489594679448</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1489594679448</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Pre Alpha 0.0.698">
+      <created>1489679878544</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1489679878544</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Pre Alpha 0.0.698">
+      <created>1489766528533</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1489766528533</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Pre Alpha 0.0.698">
+      <created>1490197514686</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1490197514687</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Pre Alpha 0.0.698">
+      <created>1490197816166</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1490197816166</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Pre Alpha 0.0.698">
+      <created>1490197981863</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1490197981863</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Pre Alpha 0.0.698">
+      <created>1490286869795</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1490286869795</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Pre Alpha 0.0.699">
+      <created>1490371280935</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1490371280935</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Pre Alpha 0.0.699">
+      <created>1490803829941</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1490803829941</updated>
+    </task>
+    <task id="LOCAL-00041" summary="40417">
+      <created>1491313690532</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1491313690532</updated>
+    </task>
+    <task id="LOCAL-00042" summary="40417">
+      <created>1491404748497</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1491404748497</updated>
+    </task>
+    <task id="LOCAL-00043" summary="40417">
+      <created>1491486702750</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1491486702750</updated>
+    </task>
+    <task id="LOCAL-00044" summary="40417">
+      <created>1491577406518</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1491577406518</updated>
+    </task>
+    <task id="LOCAL-00045" summary="100417">
+      <created>1491836904310</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1491836904310</updated>
+    </task>
+    <task id="LOCAL-00046" summary="100417">
+      <created>1492164214522</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1492164214522</updated>
+    </task>
+    <task id="LOCAL-00047" summary="140417">
+      <created>1492186480580</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1492186480581</updated>
+    </task>
+    <task id="LOCAL-00048" summary="scriptbuilder fixed">
+      <created>1493702274513</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1493702274513</updated>
+    </task>
+    <task id="LOCAL-00049" summary="script builder json build model">
+      <created>1493824219011</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1493824219011</updated>
+    </task>
+    <task id="LOCAL-00050" summary="switcher of libs json">
+      <created>1493827477183</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1493827477184</updated>
+    </task>
+    <task id="LOCAL-00051" summary="sequence BUILDUP fixed">
+      <created>1494183615749</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1494183615750</updated>
+    </task>
+    <task id="LOCAL-00052" summary="0095">
+      <created>1494401178536</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1494401178536</updated>
+    </task>
+    <task id="LOCAL-00053" summary="0095">
+      <created>1494532669966</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1494532669966</updated>
+    </task>
+    <task id="LOCAL-00054" summary="quant js lib">
+      <created>1494620199582</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1494620199584</updated>
+    </task>
+    <task id="LOCAL-00055" summary="init">
+      <created>1496604918668</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1496604918668</updated>
+    </task>
+    <task id="LOCAL-00056" summary="init">
+      <created>1496605404709</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1496605404710</updated>
+    </task>
+    <task id="LOCAL-00057" summary="init">
+      <created>1496605483328</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1496605483328</updated>
+    </task>
+    <task id="LOCAL-00058" summary="init">
+      <created>1496605512236</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1496605512236</updated>
+    </task>
+    <task id="LOCAL-00059" summary="init">
+      <created>1496605667758</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1496605667759</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1583631000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32542372" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14270613" sideWeight="0.59136885" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30056497" sideWeight="0.49361023" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.42105263" order="4" side_tool="false" content_ui="tabs" x="805" y="398" width="536" height="313" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3355049" sideWeight="0.40863115" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20320855" sideWeight="0.49728554" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20490928" sideWeight="0.50271446" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30597016" sideWeight="0.22237569" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0021344717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24759872" sideWeight="0.35224587" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.28797084" sideWeight="0.35236937" order="3" side_tool="false" content_ui="tabs" x="74" y="281" width="544" height="657" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="107" y="100" width="1484" height="826" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012731481" sideWeight="0.49754602" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37288135" sideWeight="0.49265605" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14270613" sideWeight="0.59136885" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868758" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0021344717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24759872" sideWeight="0.35224587" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32542372" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="107" y="100" width="1484" height="826" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012731481" sideWeight="0.49754602" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30056497" sideWeight="0.49361023" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.42105263" order="4" side_tool="false" content_ui="tabs" x="805" y="398" width="536" height="313" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3355049" sideWeight="0.40863115" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20320855" sideWeight="0.49728554" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20320855" sideWeight="0.50271446" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30597016" sideWeight="0.22237569" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37288135" sideWeight="0.49265605" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.28797084" sideWeight="0.35236937" order="3" side_tool="false" content_ui="tabs" x="74" y="281" width="544" height="657" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <MESSAGE value="12-11e new spacer func fix scss parts order to compile" />
+    <MESSAGE value="12-13n Some Font work started + hero video module + some helpers styles added" />
+    <MESSAGE value="12-15n  Font shell with fontforge" />
+    <MESSAGE value="12-19  Font font-face generator" />
+    <MESSAGE value="12-20  Font 95% ready" />
+    <MESSAGE value="Pre Alpha 0.0.04 improve watcher sass task" />
+    <MESSAGE value="Pre Alpha 0.0.01" />
+    <MESSAGE value="Pre Alpha 0.0.53" />
+    <MESSAGE value="Pre Alpha 0.0.531 add installer" />
+    <MESSAGE value="Pre Alpha 0.0.591" />
+    <MESSAGE value="ove menu and sidebar" />
+    <MESSAGE value="Pre Alpha 0.0.69 SVG ICONS SYSTEM ADDED" />
+    <MESSAGE value="Pre Alpha 0.0.695" />
+    <MESSAGE value="Pre Alpha 0.0.698" />
+    <MESSAGE value="Pre Alpha 0.0.699" />
+    <MESSAGE value="40417" />
+    <MESSAGE value="100417" />
+    <MESSAGE value="140417" />
+    <MESSAGE value="scriptbuilder fixed" />
+    <MESSAGE value="script builder json build model" />
+    <MESSAGE value="switcher of libs json" />
+    <MESSAGE value="sequence BUILDUP fixed" />
+    <MESSAGE value="0095" />
+    <MESSAGE value="quant js lib" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/backend/SERVER/wp</wordpressPath>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;089dc67d-8d7e-4171-b7ad-e633e9742415&gt;/var/www/podpolkovnyk/data/www/ove-cfo.ru/bitrix/templates/eshop/components/bitrix/catalog/feauture/bitrix/catalog.section/.default/result_modifier.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/backend/SERVER/wp/wp-content/themes/savoy/woocommerce/content-product.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/owlGoodsSlider/owlGoodsSlider.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="26" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dev/MIXES/Logo-svg/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/2SIDERBARINNER-docs.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MIXES/vertical_centered_image/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MIXES/vertical_centered_image/_mixin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/ELEMENTS/LINK-BUTTONS/--learnMoreButton/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/CONSTRUCTION/_construction.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/MENUS/--Light_menu/_mixin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/ELEMENTS/INPUTS/--TEXT/mixin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/LAYOUT/_header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/ELEMENTS/LINK-BUTTONS/--learnMoreButton/mixin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/ELEMENTS/_elements.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/ELEMENTS/INPUTS/--TEXT/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/_modules.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_mixin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_starter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/libs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/SOURCE_FABRIC/ICONS_COMBINER/icons/close.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="551" lean-forward="false" selection-start-line="5" selection-start-column="551" selection-end-line="5" selection-end-column="551" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/templates/PAGESYSTEM/PAGES/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/_project.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3914">
+          <caret line="206" column="19" lean-forward="false" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/--quant-lib/quant-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/SCRIPTS/SCRIPTS/--xRayView/xRayView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/MODULES/PROJECT MODULES/--owlSlider/owlSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/xRayView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/js/skip-link-focus-fix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/js/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/js/customizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/layouts/sidebar-content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2527">
+          <caret line="133" column="71" lean-forward="false" selection-start-line="133" selection-start-column="71" selection-end-line="133" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scss/MASTER_OPTIONS/_options.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrator/WordPress/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrator/WordPress/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="151" column="23" lean-forward="false" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-includes/script-loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14934">
+          <caret line="939" column="8" lean-forward="true" selection-start-line="939" selection-start-column="8" selection-end-line="939" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrator/WordPress/DRAFT/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/splits/2SIDERBARINNER-docs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="258" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrator/WordPress/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/splits/dispanser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/splits/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/splits/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/splits/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/js/_hero_video-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4636">
+          <caret line="244" column="48" lean-forward="false" selection-start-line="244" selection-start-column="48" selection-end-line="244" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="73" lean-forward="false" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+          <folding>
+            <element signature="e#6#267#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Hospital/wordpress/wp-content/themes/hospital/layouts/content-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/installers/Quant.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3375" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Dist Files" />
+            <scope name="MODULES" />
+            <scope name="SCSS" />
+            <scope name="ELEMENTS" />
+            <scope name="MIXES" />
+            <scope name="project" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
