@@ -1,0 +1,6 @@
+mixin A-socialLink(soc,cnt,className)
+	-if (!className) className =''
+	li.socialLink__item
+		a(class='socialLink '+className href='#')
+			+I(soc)
+			span=cnt

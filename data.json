@@ -1,0 +1,260 @@
+{
+	"menuData1": {
+		"Home": {
+			"title": "Продукция",
+			"href": "/production.html",
+			"dop_class": ""
+		},
+		"Products and help": {
+			"title": "Гарантия и сервис",
+			"href": "service.html",
+			"dop_class": ""
+		},
+		"Support": {
+			"title": "Партнерам",
+			"href": "partners.html",
+			"dop_class": ""
+		},
+		"AboutUs": {
+			"title": "Где купить",
+			"href": "buy.html",
+			"dop_class": "",
+			"childs": ""
+		},
+		"acc": {
+			"title": "Акции",
+			"href": "sale.html",
+			"dop_class": "lightmenu__item--active",
+			"childs": ""
+		}
+	},
+	"cartBlock": {
+		"cartBlock": "1"
+	},
+	"hero_video": {
+		"hero_video": "1"
+	},
+	"LIBS": {
+		"hero_video": {
+			"js": {
+				"hero_video-script": {
+					"src": "dev/MODULES/PROJECT MODULES/--hero_video/_hero_video-script.js",
+					"container": "footer/init",
+					"type": "init"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"owlSlider": {
+			"js": {
+				"lib": {
+					"src": "bower_components/owl.carousel/dist/owl.carousel.min.js",
+					"container": "footer/libs+"
+				},
+				"init": {
+					"src": "dev/MODULES/PROJECT MODULES/--owlSlider/owlSlider.js",
+					"container": "footer/init/init"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"baseButton": {
+			"js": {
+				"lib1": {
+					"src": "",
+					"container": "footer/libs"
+				},
+				"init": {
+					"src": "dev/ELEMENTS/LINK-BUTTONS/--baseButton/baseButton.js",
+					"container": "footer/init"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"JQ": {
+			"js": {
+				"jquery": {
+					"src": "bower_components/jquery/dist/jquery.min.js",
+					"container": "footer/libs"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"quant-lib": {
+			"js": {
+				"quant-lib-script": {
+					"src": "dev/SCRIPTS/SCRIPTS/--quant-lib/quant-lib.js",
+					"container": "footer/libs+"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"removeCss": {
+			"js": {
+				"removeCss-script": {
+					"src": "dev/SCRIPTS/SCRIPTS/--removeCss/removeCss.js",
+					"container": "footer"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		},
+		"xRayView": {
+			"js": {
+				"xRayView-script": {
+					"src": "dev/SCRIPTS/SCRIPTS/--xRayView/xRayView.js",
+					"container": "footer/init"
+				}
+			},
+			"css": {
+				"": ""
+			}
+		}
+	},
+	"owlSlider": {
+		"owlSlider": "1"
+	},
+	"head": {
+		"lang": "ru",
+		"title": "TEST APPLICATION",
+		"desc": "This is test framework application",
+		"kw": "application, test , hurray!!!",
+		"fontlinks": {
+			"1": "https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab:700"
+		},
+		"debug": false
+	},
+	"pages": {
+		"1": {
+			"title": "Главная",
+			"slug": "index",
+			"kw": "application, test , hurray!!!",
+			"layout": "default",
+			"MainMenu": false,
+			"group": false,
+			"dop_class": ""
+		},
+		"2": {
+			"title": "Диспанцеризация",
+			"slug": "dispanser",
+			"kw": "application, test , hurray!!!",
+			"layout": "default",
+			"MainMenu": true,
+			"group": false,
+			"dop_class": ""
+		},
+		"3": {
+			"title": "Платные услуги",
+			"slug": "pay",
+			"kw": "application, test , hurray!!!",
+			"layout": "default",
+			"MainMenu": true,
+			"group": false,
+			"dop_class": ""
+		},
+		"4": {
+			"title": "Документы",
+			"slug": "docs",
+			"kw": "application, test , hurray!!!",
+			"layout": "default",
+			"MainMenu": true,
+			"group": false,
+			"dop_class": ""
+		},
+		"5": {
+			"title": "Мед работникам",
+			"slug": "2SIDERBARINNER-docs",
+			"kw": "application, test , hurray!!!",
+			"layout": "2SIDEBARINNER",
+			"MainMenu": true,
+			"group": false,
+			"dop_class": ""
+		},
+		"pacients": {
+			"title": "Пациентам",
+			"slug": "pacients",
+			"kw": "application, test , hurray!!!",
+			"layout": "default",
+			"MainMenu": true,
+			"group": false,
+			"dop_class": ""
+		}
+	},
+	"response": "true",
+	"vertical-rhythm": "true",
+	"linkFonts": "true",
+	"assetsFonts": "false",
+	"debug": "false",
+	"production": "false",
+	"icon-font": "false",
+	"body-color": "cs('font')",
+	"header-color": "cs('primary')",
+	"background-color": "cs('bground')",
+	"LINKED_FONTS_MAP": {
+		"'MAIN'": "('Oswald')",
+		"'HEADER'": "('Roboto Slab')\r\n)"
+	},
+	"space": "em",
+	"element_space": ".5",
+	"component_space": "$element_space*1.618",
+	"module_space": "$component_space*1.618",
+	"block_space": "$module_space*1.618",
+	"section_space": "$block_space*1.618",
+	"progressive": "true",
+	"progressive_number": "1.618",
+	"element_space_i": ".5",
+	"element_space_o": "4",
+	"component_space_i": "6",
+	"component_space_o": "10",
+	"module_space_i": "16",
+	"module_space_o": "26",
+	"block_space_i": "30",
+	"block_space_o": "51",
+	"body-font": "fs('MAIN'),san-serif",
+	"body-font-weight": "400",
+	"header-font": "fs('HEADER'),san-serif",
+	"header-font-weight": "700",
+	"mobile-font": "15px",
+	"screen-font": "18px",
+	"line-height-ratio": "1.6",
+	"siteWidth": "1170px",
+	"colums": "12",
+	"gutter-width": "1em",
+	"container-styles": "(\r\n\r\n)",
+	"siteMinWidth": "621px",
+	"colStyles": {
+		"width": "100%",
+		"float": "left",
+		"min-height": "1px\r\n)"
+	},
+	"phone-upper-boundary": "620px",
+	"tablet-portrait-upper-boundary": "620px",
+	"tablet-landscape-upper-boundary": "1119px",
+	"desktop-upper-boundary": "1200px",
+	"grid-map": {
+		"mobile": "(prefix",
+		"container": "$siteWidth",
+		"breakpoint": "$desktopL-upper-boundary)",
+		"tablet-p": "(prefix",
+		"tablet-l": "(prefix",
+		"mediumScreen": "(prefix",
+		"largeScreen": "(prefix"
+	},
+	"nr-colStyles": {
+		"float": "left"
+	},
+	"desktopL-upper-boundary": "1400px",
+	"blueprint": "undefined",
+	"izolate": "false"
+}

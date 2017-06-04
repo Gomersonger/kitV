@@ -1,0 +1,18 @@
+<div class="cartBlock text">
+                <div class="iconContainer">
+                  <svg class="icon cartIcon">
+                    <use xlink:href="#syringe"></use>
+                  </svg>
+                </div>
+                <h4>Диагностика</h4>
+                <p>Заключения о сущности болезни и состоянии пациента, выраженное в принятой медицинской терминологии.</p><span class="price">от 700р.</span><a class="learnMoreButton" href="learnButton">Узнать</a>
+              </div>
+            </div>
+            <div class="col-12-m col-12-d col-12-tp col-12-tpl content-center"><a class="baseButton allPriceListButton" href="#">Полный список платных услуг</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block">
+        <div class="container">
+          <h2 class="block_title">Отделения</h2>

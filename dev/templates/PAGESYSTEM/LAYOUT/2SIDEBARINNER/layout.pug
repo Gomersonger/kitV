@@ -1,0 +1,38 @@
+include ../../INCLUDES/_includes
+<!-- split header.html -->
+doctype html
+html(lang=''+head.lang)
+    head
+        include ../../INCLUDES/_head
+    body
+        .hidden
+            include ../../../../../dist/icons/icons.svg
+        include ../_header
+            <!-- split #{page.slug}.html -->
+        .container
+            .row
+                main.col-8-tp
+                    block main
+                .sidebarContainer.col-4-tp
+                    aside
+                        .sidebar__section.sideBar__news
+                            h4 Последние новости
+                            +loop(3)
+                                .sidebar__section_item
+                                    img.sidebarImage(src="images/doc2.jpg")
+                                    span Новый осцилограф уже завезли
+                                    +BL-learnMoreButtom('Узнать','','sideBarButton')
+                        .sidebar__section
+                            h4 Категории
+                            ul.sidebarList
+                                li.sidebarCategories
+                                    a(href='#') Диспнсеризация
+                                li.sidebarCategories
+                                    a(href='#') Услуги
+                                li.sidebarCategories
+                                    a(href='#') Документы
+                                li.sidebarCategories
+                                    a(href='#') Пациентам
+
+
+        include ../_footer

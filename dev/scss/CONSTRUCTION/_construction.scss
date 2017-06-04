@@ -1,0 +1,78 @@
+section.block {
+  @include space-i('module','=','t','');
+  @include space-i('module','-','b','');
+  h2.block_title {
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid cs('hl');
+    margin-bottom: 25px;
+  }
+  .block__subtitle{
+    color: cs('primary');
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}
+.sidebarContainer {
+
+  @include space('element','','p');
+
+  aside{
+    margin-top:25px;
+    background: cs('secondary');
+    @include space('component','t','')
+  }
+}
+.sidebar__section {
+@include space('element','rl','b');
+@include space('component','','t');
+  h4{
+    text-align: center;
+  }
+
+}
+.sideBar__news {
+  .sidebar__section_item {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid cs('primary');
+    & span{
+      padding-right: .5em;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+}
+.learnMoreButton.sideBarButton {
+  padding-top:0;
+  padding-bottom:0;
+  @include space('module','rl','');
+  background-color: cs('accent');
+  color: white;
+  &:hover{
+    background-color: cs('accent-d');
+  }
+}
+.sidebarImage{
+  width: 100%;
+  height: auto;
+}
+.sidebarCategories{
+  border-bottom: 2px solid cs('primary');
+  font-size: 1.2em;
+  list-style-type: disc;
+  color:cs('accent');
+  a{
+    color: cs('font');
+  }
+}
+.sidebarList{
+  padding-left: 20px;
+  &:last-child{
+    padding-bottom: 20px;
+  }
+}
+.postContent{
+  border-bottom: 2px solid cs('primary');
+}

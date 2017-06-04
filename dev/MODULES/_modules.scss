@@ -1,0 +1,213 @@
+@mixin lightMenu($rotation:'v'){
+  @if($rotation=='h'){
+    .lightMenu li {
+      display: inline-block;
+      vertical-align: top;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+  .lightMenu {
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    //transition: all 1s ease;
+    @include for-size(phone-only){
+      line-height: 2em;
+      @include space-i('module','-','t','');
+      @include space-i('module','=','b','');
+    }
+  }
+  .lightMenu__list {
+    @include for-size(phone-only){
+      display: none;
+      position: absolute;
+      background-color: cs('primary');
+    }
+  }
+  .lightMenu__item {
+
+    @include a-hover(background-color,$points:(from:0,to:cs('primary-d')),$time:$allAnimationTime,$func:$allAnimationFunc);
+
+    @extend %hierarhiLevel-4;
+    list-style: none;
+
+    @include space-i('component','=','lr','');
+
+    @include for-size(phone-only){
+            @include space-i('module','|','tbrl','');
+            display: block;
+            width:100%;
+            text-align: center;
+
+
+          }
+  }
+  .lightMenu__item a{
+    @include for-size(phone-only){
+      font-size: 1.7em;
+              }
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    &:visited,
+    &:hover,
+    &:active{
+      color: #ffffff;
+    }
+
+  }
+
+  .lightmenu__item--active {
+      background-color: cs('primary-d');
+  }
+}
+//[h] -horizontal menu [v] -vertical menu
+@include lightMenu('h');
+
+
+/**
+* cartBlock styles
+*/
+
+@mixin cartBlock(){
+
+  .cartBlock{
+    background-color: rgba(205,205,205,.6);
+    font-size: 1rem;
+    padding: 5%;
+    text-align: center;
+    @include for-size(phone-only){
+      border-bottom: 2px solid white;
+    }
+    p{
+      text-align: left;
+      //@include space('element','','b');
+      margin-bottom: 0;
+    }
+  }
+  .iconContainer {
+    height: 5em;
+  }
+  .icon.cartIcon{
+    width: 100%;
+    max-height: 100%;
+    fill: cs('accent') ;
+    //margin: 0px auto;
+  }
+  .price{
+    color: #e32a8e;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+}
+
+@include cartBlock();
+@mixin hero_video(){
+	
+.hero_video{
+  position: relative;
+}
+
+  .homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+  }
+  .video-container video.fillWidth {
+    width: 100%;
+  }
+}
+@include hero_video();
+@mixin owlSlider(){
+	
+.owlSlider{
+@include space('component','','t');
+@include space('component','','b');
+@include for-size(tablet-l-up){
+}
+}
+  .x-ray .owlSlider{
+    display: block !important;
+  }
+
+
+  .owl-dots{
+    @include space('element','','t');
+    text-align: center;
+    .owl-dot{
+      display: inline-block;
+      @include space('element','','r');
+      width: .8em;
+      height: .8em;
+      border-radius: 50%;
+      background-color: cs('primary-d');
+
+      &.active{
+        background-color: cs('accent');
+      }
+    }
+
+  }
+.sliderPage {
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 10%;
+  h2{
+    color: white;
+  }
+  p{
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+.sliderPage--mod1{
+  background-image: url("images/Doc1.jpg");
+}
+.sliderPage--mod2{
+  background-image: url("images/Doc2.jpg");
+}
+.sliderPage--mod3{
+  background-image: url("images/Doc3.jpg");
+}
+.learnMoreButton.CarouselButton{
+  color: white;
+  background-color: cs('accent');
+}
+}
+@include owlSlider();

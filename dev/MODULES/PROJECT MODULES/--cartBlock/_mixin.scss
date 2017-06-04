@@ -1,0 +1,35 @@
+/**
+* cartBlock styles
+*/
+
+@mixin cartBlock(){
+
+  .cartBlock{
+    background-color: rgba(205,205,205,.6);
+    font-size: 1rem;
+    padding: 5%;
+    text-align: center;
+    @include for-size(phone-only){
+      border-bottom: 2px solid white;
+    }
+    p{
+      text-align: left;
+      //@include space('element','','b');
+      margin-bottom: 0;
+    }
+  }
+  .iconContainer {
+    height: 5em;
+  }
+  .icon.cartIcon{
+    width: 100%;
+    max-height: 100%;
+    fill: cs('accent') ;
+    //margin: 0px auto;
+  }
+  .price{
+    color: #e32a8e;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,7 @@
+mixin logo-img(src,className)
+    -if (!className) className =''
+    h1
+        a.logo__link(class=''+className,href="/",)
+            img(src='images/'+src, title='PROJECT TITLE' alt="This is theme title")
+
+

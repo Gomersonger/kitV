@@ -1,0 +1,15 @@
+{
+  "LIBS": {
+    "removeCss": {
+      "js": {
+        "removeCss-script": {
+          "src": "dev/SCRIPTS/SCRIPTS/--removeCss/removeCss.js",
+          "container": "footer"
+        }
+      },
+      "css": {
+        "": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+mixin MODULE-cartBlock(icon)
+	-if (!icon) icon =''
+	<!-- split modules/cartBlock -->
+	.cartBlock.text
+		.iconContainer
+			+I(icon,'cartIcon')
+		h4 Диагностика
+		p Заключения о сущности болезни и состоянии пациента, выраженное в принятой медицинской терминологии.
+		span.price от 700р.
+		+BL-learnMoreButtom('Узнать','learnButton')

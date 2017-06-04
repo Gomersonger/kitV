@@ -1,0 +1,78 @@
+<div class="owlSlider">
+            <div class="ove-mainSlider owl-carousel">
+              <div class="sliderPage sliderPage--mod1 content-center text">
+                <h2>Перинатальный центр</h2>
+                <p>Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.</p><a class="learnMoreButton CarouselButton" href="#">Узнать</a>
+              </div>
+              <div class="sliderPage sliderPage--mod2 content-center text">
+                <h2>Перинатальный центр</h2>
+                <p>Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.</p><a class="learnMoreButton CarouselButton" href="#">Узнать</a>
+              </div>
+              <div class="sliderPage sliderPage--mod3 content-center text">
+                <h2>Перинатальный центр</h2>
+                <p>Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.</p><a class="learnMoreButton CarouselButton" href="#">Узнать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block">
+        <div class="container">
+          <h2 class="block_title">Контакты</h2>
+          <div class="contactsBlock">
+            <div class="row">
+              <div class="col-6-tp col-12-m">
+                <div class="yandexMap">
+                  <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1559ce76d7d86dca97f4cbf361fbe343d2e3c7b9e30ed69ec5cffe93bd1e5f43&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+              </div>
+              <div class="col-6-tp col-12-m">
+                <div class="contactsWrap">
+                  <ul class="infoElement__container">
+                    <li class="infoElement">
+                      <div class="iconWrapper">
+                        <svg class="infoElement__icon ">
+                          <use xlink:href="#book"></use>
+                        </svg>
+                      </div>
+                      <h5>Адреcc:</h5><span>394033 г. Воронеж, ул. Минская, 43</span>
+                    </li>
+                    <li class="infoElement">
+                      <div class="iconWrapper">
+                        <svg class="infoElement__icon ">
+                          <use xlink:href="#bus"></use>
+                        </svg>
+                      </div>
+                      <h5>Автобусы:</h5><span>80, 90, 37a.</span>
+                    </li>
+                    <li class="infoElement">
+                      <div class="iconWrapper">
+                        <svg class="infoElement__icon ">
+                          <use xlink:href="#phone"></use>
+                        </svg>
+                      </div>
+                      <h5>Телефон:</h5><span>+7 (473) 228-65-07</span>
+                    </li>
+                    <li class="infoElement">
+                      <div class="iconWrapper">
+                        <svg class="infoElement__icon ">
+                          <use xlink:href="#mail"></use>
+                        </svg>
+                      </div>
+                      <h5>E-mail:</h5><span>elektronika@gkbsmp10.vrn.ru</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="ContactsForm">
+                  <p class="content-center">Задать Вопрос</p>
+                  <input class="ove-cardRegInput " type="text" placeholder="Это плейсхолдер"/>
+                  <input class="ove-cardRegInput " type="text" placeholder="Это плейсхолдер"/>
+                  <div class="buttonQuastWrap"><a class="baseButton" href="buttonQuast">Отправить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>

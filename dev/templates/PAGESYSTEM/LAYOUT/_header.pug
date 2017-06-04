@@ -1,0 +1,29 @@
+<!-- split header.html -->
+header.mainHeader
+    .container
+        .row
+            .col-1-tp.col-3-m.logo
+                +logo-img('logo.png')
+            .col-5-m.col-10-tp.col-9-d.headerSectionDivider
+                +I('menu','hamburger')
+                +MODULE-lightMenu('MainMenu')
+            .col-4-m.col-1-tp.col-2-d
+                .row
+                    .col-12-tp.col-12-m.col-6-d.headerSectionDivider.js-trigger(data-action='search')
+                            .headerSection
+                                +I('magnify','headerIcon searchIcon')
+                    .col-6-d.headerSectionDivider.js-trigger(data-action='xRayView').visible-d.visible-dl
+                            .headerSection
+                                +I('eye','headerIcon')
+            .col-12-m.col-12-tp.searchCtn
+                .searchWrapper
+                    +INPUT-oveCard('text','headerSearch')
+        .col-12-tp.hidden
+            .x-rayBlock
+                .ButoonFont-size.minimumFont.content-center
+                    span Размер текста 10px
+                .Med.ButoonFont-size.mediumFont.content-center
+                    span Размер текста 24px
+                .Max.ButoonFont-size.maximumFont.content-center
+                    span Размер текста 64px
+                .Butoon-color

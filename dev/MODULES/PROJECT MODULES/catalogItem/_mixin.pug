@@ -1,0 +1,15 @@
+mixin catalogItem()
+	<!-- split modules/catalogItem -->
+		-var i = 1
+		+loop(6)
+			.catalogItem
+				.catalogItem__imgCtn
+					a(href="#")
+						img.catalogItem__img(src="images/catalog/"+i+".jpg")
+				.catalogItem__title
+					a(href='/#') Набор разделочных досок Joseph Joseph Index Mini 60098 графит
+				.catalogItem__priceAndBuy__price
+								span 30 400Р
+				.catalogItem__priceAndBuy__buy
+								+B-toCart()
+			-i++

@@ -1,0 +1,65 @@
+@mixin lightMenu($rotation:'v'){
+  @if($rotation=='h'){
+    .lightMenu li {
+      display: inline-block;
+      vertical-align: top;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+  .lightMenu {
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    //transition: all 1s ease;
+    @include for-size(phone-only){
+      line-height: 2em;
+      @include space-i('module','-','t','');
+      @include space-i('module','=','b','');
+    }
+  }
+  .lightMenu__list {
+    @include for-size(phone-only){
+      display: none;
+      position: absolute;
+      background-color: cs('primary');
+    }
+  }
+  .lightMenu__item {
+
+    @include a-hover(background-color,$points:(from:0,to:cs('primary-d')),$time:$allAnimationTime,$func:$allAnimationFunc);
+
+    @extend %hierarhiLevel-4;
+    list-style: none;
+
+    @include space-i('component','=','lr','');
+
+    @include for-size(phone-only){
+            @include space-i('module','|','tbrl','');
+            display: block;
+            width:100%;
+            text-align: center;
+
+
+          }
+  }
+  .lightMenu__item a{
+    @include for-size(phone-only){
+      font-size: 1.7em;
+              }
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    &:visited,
+    &:hover,
+    &:active{
+      color: #ffffff;
+    }
+
+  }
+
+  .lightmenu__item--active {
+      background-color: cs('primary-d');
+  }
+}

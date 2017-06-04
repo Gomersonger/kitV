@@ -1,0 +1,54 @@
+@import "functions";
+
+@mixin helpers() {
+  .fadeIn {
+    opacity: 1;
+  }
+  .fadeOut {
+    opacity: 0;
+  }
+  .visible {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .f-left {
+    float: left;
+  }
+  .f-right {
+    float: right;
+  }
+  .clearfix {
+    &:before,
+    &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+  .inline{
+    display: inline-block;
+  }
+  .no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .no-gutter-l {
+    padding-left: 0;
+  }
+  .no-gutter-r {
+    padding-right: 0;
+  }
+
+  .js-trigger{
+    cursor: pointer;
+  }
+
+  .content-center{
+    text-align: center;
+  }
+}

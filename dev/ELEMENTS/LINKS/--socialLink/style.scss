@@ -1,0 +1,30 @@
+$color__linksocialLink:cs('primary');
+$color__linksocialLink-visited:cs('primary');
+$color__linksocialLink-hover:cs('primary-d');
+.socialLink__item {
+ display: inline-block;
+ @include space('element','','rl')
+}
+
+a.socialLink {color: $color__linksocialLink;
+ text-decoration: none;
+ position: relative;
+ &:visited {color: $color__linksocialLink-visited;
+ }
+ &:hover, &:focus, &:active
+ {color: $color__linksocialLink-hover;
+ } &:focus {outline: thin dotted;}
+ &:hover, &:active
+ {outline: 0;}
+ span {
+ display: inline-block;
+  margin-top: 20px;
+
+ }
+ svg {
+  margin-top: -30px;
+  fill: cs('accent');
+  padding-right: 5px;
+ }
+
+}

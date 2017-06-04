@@ -1,0 +1,125 @@
+@mixin typographic() {
+
+  html {
+    @include t-html;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td {
+    @include t-reset;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @include t-header;
+  }
+
+
+  .text p, p.text,
+  .text blockquote, blockquote.text,
+  .text pre pre.text,
+  .text address, address.text,
+  .text dl, dl.text,
+  .text ol,ol.text,
+  .text ul,ul.text,
+  .text table, table.text {
+      @include t-block;
+    }
+  h1 {
+    @include t-h1;
+  }
+
+  h2 {
+    @include t-h2;
+  }
+
+  h3 {
+    @include t-h3;
+  }
+
+  h4 {
+    @include t-h4;
+  }
+
+  h5 {
+    @include t-h5;
+  }
+
+  h6 {
+    @include t-h6;
+  }
+  blockquote {
+    @include t-blockquote;
+  }
+
+  pre {
+    @include t-pre;
+  }
+
+  code {
+    @include t-code;
+  }
+
+  big, small, sub, sup {
+    line-height: 0;
+  }
+
+  abbr, acronym {
+    @include t-abbr;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  dt {
+    @include t-dt;
+  }
+
+  .text ul, ul.text {
+    padding-left: 1.1em;
+  }
+
+  .text ol, ol.text {
+    padding-left: 1.4em;
+  }
+
+  fieldset {
+    @include t-fieldset;
+  }
+
+  legend {
+    @include t-legend;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    @include t-input;
+  }
+
+  input[type="submit"], button {
+    @include t-button;
+  }
+
+  label {
+    @include t-label;
+  }
+
+  table {
+    @include t-table;
+  }
+
+  th {
+    @include t-th;
+  }
+
+  td {
+    @include t-td;
+  }
+
+
+}

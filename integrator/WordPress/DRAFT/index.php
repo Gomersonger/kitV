@@ -1,0 +1,36 @@
+<?php
+get_header();?>
+<?php echo get_template_directory_uri();?>
+<?php
+get_footer();?>
+/////////////////////////////////////////////////////////////////////////
+
+</span></div>
+            <div class="Butoon-color"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="heroImageHolder">
+        <div class="container">
+          <div class="x-rayPanel">
+            <div class="x-rayFont" id="font14">
+              <p>размер шрифта 14</p>
+            </div>
+            <div class="x-rayFont" id="font18">
+              <p>размер шрифта 18</p>
+            </div>
+            <div class="x-rayFont" id="font24">
+              <p>размер шрифта 24</p>
+            </div>
+          </div>
+          <h1>Воронежская областная<span>клиническая больница №1</span><span class="headerAddress">г. Воронеж, ул. Минская, 43</span></h1><a class="baseButton record" href="http://www.rmis36.ru">Записаться к врачу</a>
+        </div>
+      </div>
+      <section class="block">
+        <div class="container">
+          <h2 class="block_title">Платные Услуги</h2>
+          <p class="block__subtitle">Коллектив нашей больницы имеет многолетний опыт и возможность проводить комплексное лечебно-профилактическое обслуживание сотрудников Вашей компании, включающее:</p>
+          <div class="row">
+            <div class="col-3-tp">

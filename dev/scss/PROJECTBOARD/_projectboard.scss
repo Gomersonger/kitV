@@ -1,0 +1,97 @@
+@mixin projectBoard(){
+  .pb-projectBoard {
+    background: white;
+  }
+  .pb-section {
+    border-bottom: 1px solid #ededed;
+    @include space('module','trbl','');
+  }
+  .pb-elementHeader{
+    display:block;
+  }
+  .pb-element{
+    @include space('element','r','');
+  }
+  .pb-colorBox{
+    width: 90px;
+    height: 90px;
+    @include space('element','','t');
+  }
+  @each $role,$value in $colors-map{
+    .pb-colorBox--#{$role}{
+      background-color: $value;
+    }
+  }
+  .pb-colorMaket section {
+    font-size: 10px;
+    @include space('block','','tb');
+  }
+  .pb-colorMaket {
+    width: 40%;
+    background-color: cs('bground');
+  }
+  .pb-colorMaket__ctn{
+    width: 80%;
+    background-color: cs('fground');
+    @include space('block','trbl','');
+    margin: 0 auto;
+  }
+  .pb-colorMaket__header{
+    height: 60px;
+  }
+  .pb-colorMaket__header__primary{
+    @include space('component','trbl','');
+    background-color: cs('primary');
+    width: 70%;
+  }
+  .pb-colorMaket__header__secondary{
+    @include space('component','trbl','');
+    background-color: cs('secondary');
+    width: 30%;
+  }
+  .pb-colorMaket__header__accent{
+    width: 40%;
+    @include space('element','trbl','');
+    background-color: cs('accent');
+  }
+  .pb-colorMaket__body{
+    @include space('component','trbl','');
+  }
+  .pb-colorMaket__body__section{
+    @include space('block','tb','');
+    background-color: cs('primary');
+    &:first-child{
+    }
+  }
+  .pb-colorMaket__body__section__header{
+    @include space('element','tlbr','');
+    background-color: cs('secondary');
+  }
+  .pb-colorMaket__body__section__accent{
+    @include space('element','tlbr','tb');
+    width: 45%;
+    background-color: cs('accent');
+  }
+  .pb-colorMaket__footer {
+    @include space('component','tlbr','');
+    background-color: cs('primary');
+  }
+  .pb-colorMaket__hero{
+    font-size:16px;
+    @include space('block','trbl','');
+    background-color: cs('primary');
+    color: cs('secondary');
+    border-bottom: solid 4em cs('secondary');
+  }
+  .hierarchy{
+    font-size: 1rem;
+  }
+  .hl1 {@extend %hierarhiLevel-1}
+  .hl2 {@extend %hierarhiLevel-2}
+  .hl3 {@extend %hierarhiLevel-3}
+  .hl4 {@extend %hierarhiLevel-4}
+  .hl-1 {@extend %hierarhiLevel--1}
+  .hl-2 {@extend %hierarhiLevel--2}
+
+
+}

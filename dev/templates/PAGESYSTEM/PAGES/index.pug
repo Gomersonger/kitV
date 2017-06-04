@@ -1,0 +1,63 @@
+//- index.pug
+extends ../LAYOUT/layout.pug
+block title
+    title Главная
+    -var page={slug:"index",title:"Главная"};
+block Hero
+        .heroImageHolder
+            .container
+                .x-rayPanel
+                    .x-rayFont#font14
+                        p размер шрифта 14
+                    .x-rayFont#font18
+                        p размер шрифта 18
+                    .x-rayFont#font24
+                        p размер шрифта 24
+                h1 Воронежская областная
+                    span клиническая больница №1
+                    span.headerAddress г. Воронеж, ул. Минская, 43
+                +BL-baseButton('Записаться к врачу','http://www.rmis36.ru','record')
+block main
+    section.block
+        .container
+            h2.block_title Платные Услуги
+            p.block__subtitle Коллектив нашей больницы имеет многолетний опыт и возможность проводить комплексное лечебно-профилактическое обслуживание сотрудников Вашей компании, включающее:
+            .row
+                .col-3-tp
+                    +MODULE-cartBlock('ambulance')
+                .col-3-tp
+                    +MODULE-cartBlock('brain')
+                .col-3-tp
+                    +MODULE-cartBlock('arms')
+                .col-3-tp
+                    +MODULE-cartBlock('syringe')
+                .col-12-m.col-12-d.col-12-tp.col-12-tpl.content-center
+                    +BL-baseButton('Полный список платных услуг','','allPriceListButton')
+    section.block
+        .container
+            h2.block_title Отделения
+            +MODULE-owlSlider()
+    section.block
+        .container
+            h2.block_title Контакты
+            .contactsBlock
+                .row
+                    .col-6-tp.col-12-m
+                        .yandexMap
+                            script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1559ce76d7d86dca97f4cbf361fbe343d2e3c7b9e30ed69ec5cffe93bd1e5f43&width=100%25&height=400&lang=ru_RU&scroll=true')
+                    .col-6-tp.col-12-m
+                        .contactsWrap
+                            ul.infoElement__container
+                                +infoElement('book','Адреcc','394033 г. Воронеж, ул. Минская, 43')
+                                +infoElement('bus','Автобусы','80, 90, 37a.')
+                                +infoElement('phone','Телефон','+7 (473) 228-65-07')
+                                +infoElement('mail','E-mail','elektronika@gkbsmp10.vrn.ru')
+                        .ContactsForm
+                            p.content-center Задать Вопрос
+                            +INPUT-oveCard('text')
+                            +INPUT-oveCard('text')
+                            .buttonQuastWrap
+                                +BL-baseButton('Отправить','buttonQuast').
+
+
+

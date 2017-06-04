@@ -1,0 +1,21 @@
+//VARIABLES
+$logo-max-height: 110px;
+
+.logo {
+  h1{
+      text-align: center;
+  }
+}
+
+.logo__link{
+
+  img {
+    margin-top: -3px;//
+    border:none;
+    max-width: 100%;
+    max-height: $logo-max-height;
+    vertical-align: middle;
+    height: auto;
+  }
+
+}

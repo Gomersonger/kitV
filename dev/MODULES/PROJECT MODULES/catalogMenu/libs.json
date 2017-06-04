@@ -1,0 +1,15 @@
+{
+  "LIBS": {
+    "catalogMenu": {
+      "js": {
+        "catalogMenu": {
+          "src": "",
+          "container": ""
+        }
+      },
+      "css": {
+        "": ""
+      }
+    }
+  }
+}

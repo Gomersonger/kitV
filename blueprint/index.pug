@@ -1,0 +1,19 @@
+include ../dev/templates/PAGESYSTEM/INCLUDES/_includes
+include ../dev/templates/mixins/_mixins
+doctype html
+html
+    head
+        link(href='main.css',type='text/css',rel='stylesheet')
+        link(href='blueprint.css',type='text/css',rel='stylesheet')
+    body.blueprint
+        .hidden
+            include ../dist/icons/icons.svg
+        .blueprint_panel
+        .canvas
+            .canvas__border
+                .canvas__blueprint.container
+                    +module(blueprint)
+                div hello word!!
+                div hello word!!
+        include ../dev/templates/PAGESYSTEM/SCRIPTS-STYLES/FOOTER/_footerScripts
+

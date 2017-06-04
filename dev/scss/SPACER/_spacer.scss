@@ -1,0 +1,190 @@
+@mixin space($e,$p:0,$m:0) {
+  $space_ratio: 0;
+  @if ($e=='block') {
+    $space_ratio: $block_space;
+  } @else if ($e=='module') {
+    $space_ratio: $module_space;
+  } @else if ($e=='component') {
+    $space_ratio: $component_space;
+  } @else if ($e=='element') {
+    $space_ratio: $element_space;
+  }@else if ($e=='section') {
+    $space_ratio: $section_space;
+  }
+
+
+  @if ($m!=0) {
+    @if (str-index($m, 't')) {
+      margin-top: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if (str-index($m, 'r')) {
+      margin-right: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if (str-index($m, 'b')) {
+      margin-bottom: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if (str-index($m, 'l')) {
+      margin-left: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if (str-index($m, 'a')) {
+      margin: #{$line-height-ratio*$space_ratio}$space;
+    }
+  }
+  @if($p!=0){
+    @if(str-index($p, 't')){
+      padding-top: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if(str-index($p, 'r')){
+      padding-right: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if(str-index($p, 'b')){
+      padding-bottom: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if(str-index($p, 'l')){
+      padding-left: #{$line-height-ratio*$space_ratio}$space;
+    }
+    @if(str-index($p, 'a')){
+      padding: #{$line-height-ratio*$space_ratio}$space;
+    }
+  }
+}
+
+@mixin space-i($e,$type:'=',$p:0,$m:0) {
+  $space_ratio: 0;
+  $space_ratio_v:0;
+  $space_ratio_h:0;
+  @if($type=='=' or $type == '|'){
+  @if ($e=='block') {
+    $space_ratio_v: $block_space_o;
+
+  } @else if ($e=='module') {
+    $space_ratio_v: $module_space_o;
+
+  } @else if ($e=='component') {
+    $space_ratio_v: $component_space_o;
+
+  } @else if ($e=='element') {
+    $space_ratio_v: $element_space_o;
+
+  }
+  @if($type == '='){
+  $space_ratio_h:$space_ratio_v;
+}@else {
+  @if ($e=='block') {
+    $space_ratio_h: $block_space_i;
+
+  } @else if ($e=='module') {
+    $space_ratio_h: $module_space_i;
+
+  } @else if ($e=='component') {
+    $space_ratio_h: $component_space_i;
+
+  } @else if ($e=='element') {
+    $space_ratio_h: $element_space_i;
+  }
+}
+
+  }@else if($type=='-'){
+
+  @if ($e=='block') {
+    $space_ratio_v: $block_space_i;
+    $space_ratio_h: $block_space_o;
+  } @else if ($e=='module') {
+    $space_ratio_v: $module_space_i;
+    $space_ratio_h: $module_space_o;
+  } @else if ($e=='component') {
+    $space_ratio_v: $component_space_i;
+    $space_ratio_h: $component_space_o;
+  } @else if ($e=='element') {
+    $space_ratio_v: $element_space_i;
+    $space_ratio_h: $element_space_o;
+  }
+
+
+  }
+
+@if($space == px){
+  $line-height-ratio : 1;
+}
+
+
+  @if ($m!=0) {
+    @if (str-index($m, 't')) {
+      margin-top: #{$line-height-ratio*$space_ratio_v}$space;
+    }
+    @if (str-index($m, 'r')) {
+      margin-right: #{$line-height-ratio*$space_ratio_h}$space;
+    }
+    @if (str-index($m, 'b')) {
+      margin-bottom: #{$line-height-ratio*$space_ratio_v}$space;
+    }
+    @if (str-index($m, 'l')) {
+      margin-left: #{$line-height-ratio*$space_ratio_h}$space;
+    }
+    @if (str-index($m, 'a')) {
+      margin: #{$line-height-ratio*$space_ratio_v}$space,#{$line-height-ratio*$space_ratio_h}$space;
+    }
+  }
+  @if($p!=0){
+    @if(str-index($p, 't')){
+      padding-top: #{$line-height-ratio*$space_ratio_v}$space;
+    }
+    @if(str-index($p, 'r')){
+      padding-right: #{$line-height-ratio*$space_ratio_h}$space;
+    }
+    @if(str-index($p, 'b')){
+      padding-bottom: #{$line-height-ratio*$space_ratio_v}$space;
+    }
+    @if(str-index($p, 'l')){
+      padding-left: #{$line-height-ratio*$space_ratio_h}$space;
+    }
+    @if(str-index($p, 'a')){
+      padding: #{$line-height-ratio*$space_ratio_v}$space,#{$line-height-ratio*$space_ratio_h}$space;
+    }
+  }
+
+
+}
+
+
+@function s-growLines($lines,$linesRatio:0,$linesBlocks:1,$font-size:1){
+  $space_ratio: 0;
+  @if ($linesRatio=='block') {
+    $space_ratio: $block_space;
+  } @else if ($linesRatio=='module') {
+    $space_ratio: $module_space;
+  } @else if ($linesRatio=='component') {
+    $space_ratio: $component_space;
+  } @else if ($linesRatio=='element') {
+    $space_ratio: $element_space;
+  }
+  @return $font-size*($lines*(($space_ratio*$line-height-ratio*$linesBlocks)+($line-height-ratio)))*1em;
+}
+@function s-height($lines,$linesRatio){
+  $space_ratio: 0;
+  @if ($linesRatio=='block') {
+    $space_ratio: $block_space;
+  } @else if ($linesRatio=='module') {
+    $space_ratio: $module_space;
+  } @else if ($linesRatio=='component') {
+    $space_ratio: $component_space;
+  } @else if ($linesRatio=='element') {
+    $space_ratio: $element_space;
+  }
+  @return $line-height-ratio+$space_ratio*$lines*2em;
+}
+@function s-growWrap($wrapRatio,$wrapBlocks,$calcLines,$wrapFontSize:1){
+  $lines:_strip-units($calcLines);
+  //$fk:_strip-units()
+  $space_ratio: 0;
+  @if ($wrapRatio=='block') {
+    $space_ratio: $block_space;
+  } @else if ($wrapRatio=='module') {
+    $space_ratio: $module_space;
+  } @else if ($wrapRatio=='component') {
+    $space_ratio: $component_space;
+  } @else if ($wrapRatio=='element') {
+    $space_ratio: $element_space;
+  }
+  @return  strip-unit($wrapFontSize*($space_ratio*$line-height-ratio*$wrapBlocks)+$lines)*1em;
+}

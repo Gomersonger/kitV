@@ -1,0 +1,298 @@
+//PROJECT SCSS
+
+header.mainHeader {
+  background-color: cs('primary');
+  height: 113px;
+  line-height: 110px;
+  border-bottom: 3px solid cs('primary-d');
+  &>.headerSectionDivider:first-child{
+    border-left: 2px solid cs('primary-d');
+  }
+}
+.logo{
+  border-right: 2px solid cs('primary-d');
+}
+.icon.hamburger{
+  width: 5em;
+  cursor:pointer;
+  display: none;
+  margin: 0 auto;
+@include for-size(phone-only){
+  display: block;
+          }
+}
+.headerSectionDivider {
+
+  border-left: 1px solid cs('primary-d');
+  border-right: 1px solid cs('primary-d');
+  &:last-child{
+    border-right: 2px solid cs('primary-d');
+  }
+  @include for-size(phone-only){
+    border:none;
+  }
+}
+
+.headerSection {
+  line-height: 4em;
+  height: 110px;
+  text-align: center;
+    @include space-i('module','-','tb','');
+  //border-right: 2px solid cs('primary-d');
+
+  ,.headerAddress {
+    display: block;
+    color: #fff;
+
+  }
+  .headerPhone{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .headerIcon {
+    width: 100%;
+    height: 100%;
+  }
+}
+.js-trigger{
+  @include a-hover('background-color',(from:0,to:cs('primary-d')));
+  &.active{
+    background-color: cs('primary-d');
+  }
+}
+.icon{
+  height: 7em;
+}
+
+
+.price{
+  @include for-size(phone-only){
+    display:block;
+  }
+}
+
+
+
+.heroImageHolder{
+  width: 100%;
+  min-height: 700px;
+  padding-top: 5%;
+  text-align: center;
+  @include i-bkg-ctr("images/Hospital.jpg",'cover');
+  transition: 1s;
+  h1{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.2em;
+    margin-bottom: .5em;
+    text-shadow: 2px 2px gray;
+  span{
+    display: block;
+    font-size: 2.5rem;
+  }
+  }
+  h2{
+    color: white;
+  }
+}
+.record{
+  font-size: 1em;
+}
+.allPriceListButton{
+  margin-top: 25px ;
+  @include for-size(phone-only){
+  }
+}
+.contactsBlock{
+  background-color: rgba(205,205,205,.6);
+  padding: 1%;
+}
+.ContactsForm p{
+  font-size: 1.5rem;
+  color: cs('primary');
+}
+.contactsWrap{
+  border-bottom: 1px solid cs('primary');
+  @include for-size(phone-only){
+    margin: 0 auto;
+  }
+}
+.mainFooter{
+  background-color: cs('primary');
+  padding: 1%;
+  padding-top: 2%;
+}
+.footerContacts p{
+  color: white;
+  font-size: .7rem;
+  line-height: 2em;
+}
+.copyright{
+  color: white;
+}
+.x-rayBlock{
+  width:100%;
+  height: 300px;
+  padding-top: 25px;
+}
+.ButoonFont-size {
+  height: 100px;
+  width: 200px;
+  background-color: cs('primary');
+  cursor: pointer;
+  color: white;
+  border-bottom: 2px solid white;
+}
+.postImgContainer{
+  height: 400px;
+  @include for-size(phone-only){
+    height: 250px;
+  }
+  @include for-size(tp-up){
+    margin: 0;
+  }
+}
+.wrappContent{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.wrappComent{
+  background-color: cs('secondary');
+  margin-bottom: 25px;
+}
+.comentWrapNameDateIcon{
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.comentWrapComents{
+  display: inline-block;
+  p{
+    background-color: cs('secondary');
+    padding: 1rem;
+  }
+}
+.comentIcon{
+  fill: cs('accent');
+  height: 3rem;
+  width: 3rem;
+}
+.Coment{
+  border-bottom: 5px solid white;
+}
+.x-ray{
+  *{
+    background-image: none !important;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    transition: none !important;
+  }
+  svg{
+    fill: black !important;
+  }
+  button{
+    font-size: 1.3em;
+  }
+  a{
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+  .x-rayFont{
+    border: 2px solid black !important;
+  }
+  .owl-carousel{
+    display: block;
+  }
+}
+.x-ray--Black{
+  *{
+    background: black !important;
+    color: white !important;
+    background-image: none !important;
+    border: none !important;
+    font-size: 18px;
+  }
+  svg{
+    fill: white !important;
+  }
+  button{
+    font-size: 1.3em;
+  }
+  a{
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+  h2{
+    font-size:2em ;
+  }
+  .cartBlock{
+    display: block;
+    width: 100% !important;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+  .record{
+    font-size: 2em;
+  }
+  .block{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .yandexMap{
+    display: none;
+  }
+}
+.x-rayFont{
+  font-size: 1.5em;
+  cursor:pointer;
+  text-align: left;
+  display: inline-block;
+  border: 2px solid black;
+  display: none;
+ margin-right: 10px;
+}
+.visible{
+  display: inline-block;
+}
+.bottom{
+  margin-top: 200px;
+}
+.yandexMap{
+  display: block;
+  margin: 0 auto;
+}
+.CarouselButton{
+  padding: .2em 1.5em;
+  font-size: 1.3em;
+  display: inline-block;
+  &:hover{
+    background-color: white;
+    color: cs('accent');
+    transition: all .5s;
+  }
+}
+.buttonQuastWrap{
+  text-align: center;
+}
+.sideBarButton{
+  display: inline-block;
+}
+.sidebarCategories:hover{
+  background-color: cs('accent');
+  color: white;
+}
+.sidebar__section{
+  margin-top: 0;
+}
+.imgContainer img{
+  width: 100%;
+  height: auto;
+}
+.sliderPage p,.sliderPage h2{
+  text-shadow: 2px 2px black;
+}

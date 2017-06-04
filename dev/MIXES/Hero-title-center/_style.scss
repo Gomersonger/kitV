@@ -1,0 +1,11 @@
+.heroTitle-ctn {
+  width: 100%;
+  display: table;
+  text-align: center;
+  height: 100%;
+  h1.heroTitle {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: fs('HERO');
+  }
+}

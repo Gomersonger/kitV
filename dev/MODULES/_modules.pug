@@ -1,0 +1,56 @@
+mixin MODULE-lightMenu(dataMenu)
+	if dataMenu=='MainMenu'
+		-var menuData = pages
+	else
+		-var menuData = menuData1
+	nav.lightMenu(role='navigation')
+		ul.lightMenu__list
+			each menuItem in menuData
+				if dataMenu=='MainMenu'
+					if menuItem.MainMenu
+						li(class='lightMenu__item ' + menuItem.dop_class)
+							a(href="" + menuItem.slug+".html")=menuItem.title
+				else
+					li(class='lightMenu__item ' + menuItem.dop_class)
+						a(href="" + menuItem.href)=menuItem.title
+mixin MODULE-cartBlock(icon)
+	-if (!icon) icon =''
+	<!-- split modules/cartBlock -->
+	.cartBlock.text
+		.iconContainer
+			+I(icon,'cartIcon')
+		h4 Диагностика
+		p Заключения о сущности болезни и состоянии пациента, выраженное в принятой медицинской терминологии.
+		span.price от 700р.
+		+BL-learnMoreButtom('Узнать','learnButton')
+
+mixin MODULE-hero_video()
+	<!-- split modules/hero_video -->
+	.hero_video
+		.homepage-hero-module
+			.video-container
+				.filter
+				video(autoplay loop class="fillWidth")
+					source(src="Hello-World.mp4" type="video/mp4")
+					|Your browser does not support the video tag. I suggest you upgrade your browser.
+					source(src="Hello-World.webm" type="video/webm")
+					|Your browser does not support the video tag. I suggest you upgrade your browser.
+				+hero-title-center('The best of the Rest')
+			.hero_video__poster.hidden
+				img(src="Hello-World.jpg" alt="x")
+mixin MODULE-owlSlider()
+	<!-- split modules/owlSlider -->
+	.owlSlider
+		.ove-mainSlider.owl-carousel
+			.sliderPage.sliderPage--mod1.content-center.text
+				h2 Перинатальный центр
+				p Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.
+				+BL-learnMoreButtom('Узнать','','CarouselButton')
+			.sliderPage.sliderPage--mod2.content-center.text
+				h2 Перинатальный центр
+				p Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.
+				+BL-learnMoreButtom('Узнать','','CarouselButton')
+			.sliderPage.sliderPage--mod3.content-center.text
+				h2 Перинатальный центр
+				p Уникальные операции в нашей больнице стали почти рутиной, каждый год высококвалифицированную медицинскую помощь получают более тысячи человек.
+				+BL-learnMoreButtom('Узнать','','CarouselButton')

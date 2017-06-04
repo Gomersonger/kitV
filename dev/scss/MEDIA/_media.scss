@@ -1,0 +1,37 @@
+@mixin media($breakPoint){
+  $mobileBreakpoint : map_get(map_get($grid-map,mobile),breakpoint);
+  $tabletBreakpointPortrait : map_get(map_get($grid-map,tablet-p),breakpoint);
+  $tabletBreakpointLandscape : map_get(map_get($grid-map,tablet-l),breakpoint);
+  $medBreakpoint : map_get(map_get($grid-map,mediumScreen),breakpoint);
+  $largeBreakpoint : map_get(map_get($grid-map,largeScreen),breakpoint);
+  @if($breakPoint == 'mobile') {
+    @media screen and (max-width: $tabletBreakpointPortrait) {
+      @content
+    }
+  }
+  @else if($breakPoint == 'tablet'){
+    @media screen and (max-width: $medBreakpoint) {
+      @content
+    }
+  }
+  @else if($breakPoint == 'md'){
+    @media screen and (max-width: $largeBreakpoint) {
+      @content
+    }
+  }
+}
+//////////////////////////////////////////////////////////////////
+@mixin for-size($range) {
+
+  @if $range == phone-only {
+    @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
+  } @else if $range == tp-up {
+    @media (min-width: $phone-upper-boundary) { @content; }
+  } @else if $range == tl-up {
+    @media (min-width: $tablet-portrait-upper-boundary) { @content; }
+  } @else if $range == d-up {
+    @media (min-width: $tablet-landscape-upper-boundary) { @content; }
+  } @else if $range == bd-up {
+    @media (min-width: $desktop-upper-boundary) { @content; }
+  }
+}
